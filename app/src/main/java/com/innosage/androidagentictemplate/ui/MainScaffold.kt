@@ -28,6 +28,7 @@ fun MainScaffold(
     val screens = listOf(Screen.Dashboard, Screen.History)
     val utterances by viewModel.utterances.collectAsState()
     val isVoiced by viewModel.isVoiced.collectAsState()
+    val currentUtteranceText by viewModel.currentUtteranceText.collectAsState()
 
     Scaffold(
         bottomBar = {
@@ -72,6 +73,7 @@ fun MainScaffold(
                     isRecording = isRecording,
                     isVoiced = isVoiced,
                     utterances = utterances,
+                    currentUtteranceText = currentUtteranceText,
                     onToggleRecording = onToggleRecording,
                     onFileTranscribe = { /* Implement file picker and transcription */ }
                 )

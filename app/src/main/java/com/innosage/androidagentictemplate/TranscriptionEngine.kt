@@ -14,6 +14,7 @@ import java.io.File
 class TranscriptionEngine(private val context: Context) {
     private var whisperContext: WhisperContext? = null
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private var transcriptionJob: Job? = null
     private val converter = AudioConverter()
     private val TAG = "TranscriptionEngine"
 
@@ -78,7 +79,8 @@ class TranscriptionEngine(private val context: Context) {
     }
 
     fun transcribeUtterance(pcmData: ByteArray, onResult: (String) -> Unit) {
-        scope.launch {
+        transcriptionJob?.cancel() // Cancel previous if still running
+        transcriptionJob = scope.launch {
             val currentContext = whisperContext
             if (currentContext == null) return@launch
 
@@ -97,7 +99,9 @@ class TranscriptionEngine(private val context: Context) {
                     onResult(transcript)
                 }
             } catch (e: Exception) {
-                Log.e(TAG, "Error transcribing utterance: ${e.message}")
+                if (e !is CancellationException) {
+                    Log.e(TAG, "Error transcribing utterance: ${e.message}")
+                }
             }
         }
     }

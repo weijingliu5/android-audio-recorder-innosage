@@ -51,6 +51,9 @@ class AudioRecordService : Service() {
     companion object {
         private val _isVoicedState = kotlinx.coroutines.flow.MutableStateFlow(false)
         val isVoicedState: kotlinx.coroutines.flow.StateFlow<Boolean> = _isVoicedState
+
+        private val _currentUtteranceText = kotlinx.coroutines.flow.MutableStateFlow("")
+        val currentUtteranceText: kotlinx.coroutines.flow.StateFlow<String> = _currentUtteranceText
     }
 
     private var audioRecord: AudioRecord? = null
@@ -152,6 +155,16 @@ class AudioRecordService : Service() {
 
                     if (vadProcessor.shouldRecord(voiced, now)) {
                         utteranceBuffer.write(currentPcmBytes)
+                        
+                        // Progressive Transcription
+                        val utteranceDataSoFar = utteranceBuffer.toByteArray()
+                        if (utteranceDataSoFar.size >= 16000 * 2) { // Every 1s
+                            if (System.currentTimeMillis() % 1000 < 100) { // Throttle slightly
+                                transcriptionEngine.transcribeUtterance(utteranceDataSoFar) { text ->
+                                    _currentUtteranceText.value = text
+                                }
+                            }
+                        }
                     }
 
                     if (vadProcessor.isUtteranceComplete(now)) {
@@ -163,6 +176,7 @@ class AudioRecordService : Service() {
                             Log.d(LOG_TAG, "Utterance detected, transcribing...")
                             transcriptionEngine.transcribeUtterance(utteranceData) { text ->
                                 Log.i(LOG_TAG, "LIVE: $text")
+                                _currentUtteranceText.value = "" // Reset for next utterance
                                 serviceScope.launch {
                                     database.utteranceDao().insert(UtteranceEntity(
                                         timestamp = startTime,

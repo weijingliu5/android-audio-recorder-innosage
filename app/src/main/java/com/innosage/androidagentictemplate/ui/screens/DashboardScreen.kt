@@ -28,6 +28,7 @@ fun DashboardScreen(
     isRecording: Boolean,
     isVoiced: Boolean,
     utterances: List<UtteranceEntity>,
+    currentUtteranceText: String,
     onToggleRecording: () -> Unit,
     onFileTranscribe: () -> Unit
 ) {
@@ -63,7 +64,7 @@ fun DashboardScreen(
             color = MaterialTheme.colorScheme.surface.copy(alpha = 0.3f)
         ) {
             Box(contentAlignment = Alignment.Center) {
-                if (utterances.isEmpty()) {
+                if (utterances.isEmpty() && currentUtteranceText.isEmpty()) {
                     EnergyRing(isVoiced = isVoiced && isRecording)
                     Text(
                         text = if (isRecording) "LISTENING..." else "STANDBY",
@@ -71,10 +72,26 @@ fun DashboardScreen(
                         color = Color.White.copy(alpha = 0.5f)
                     )
                 } else {
-                    UtteranceFeed(utterances = utterances)
-                    // Mini Energy Ring overlay when list is visible
-                    Box(modifier = Modifier.align(Alignment.TopEnd).padding(16.dp).size(40.dp)) {
-                        EnergyRing(isVoiced = isVoiced && isRecording)
+                    Column {
+                        Box(modifier = Modifier.weight(1f)) {
+                            UtteranceFeed(utterances = utterances)
+                            // Mini Energy Ring overlay when list is visible
+                            Box(modifier = Modifier.align(Alignment.TopEnd).padding(16.dp).size(40.dp)) {
+                                EnergyRing(isVoiced = isVoiced && isRecording)
+                            }
+                        }
+                        
+                        // Progressive display
+                        if (currentUtteranceText.isNotEmpty()) {
+                            Text(
+                                text = currentUtteranceText,
+                                style = MaterialTheme.typography.bodyLarge,
+                                color = ElectricGreen.copy(alpha = 0.8f),
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(16.dp)
+                            )
+                        }
                     }
                 }
             }

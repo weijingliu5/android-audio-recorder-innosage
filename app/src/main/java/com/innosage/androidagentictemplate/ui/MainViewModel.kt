@@ -25,4 +25,5 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         )
 
     val isVoiced: StateFlow<Boolean> = AudioRecordService.isVoicedState
+    val currentUtteranceText: StateFlow<String> = AudioRecordService.currentUtteranceText
 }
