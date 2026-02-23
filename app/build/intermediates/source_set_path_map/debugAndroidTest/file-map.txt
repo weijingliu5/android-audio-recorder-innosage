@@ -1,6 +1,0 @@
-com.innosage.androidagentictemplate.test.app-jetified-annotation-experimental-1.3.0-0 /Users/innosage-bots/.gradle/caches/8.11.1/transforms/adcca9e46e887c7094e6e4b970f3c10b/transformed/jetified-annotation-experimental-1.3.0/res
-com.innosage.androidagentictemplate.test.app-jetified-core-1.5.0-1 /Users/innosage-bots/.gradle/caches/8.11.1/transforms/cbc9b66385310ecb3565e2cfc91339f5/transformed/jetified-core-1.5.0/res
-com.innosage.androidagentictemplate.test.app-androidTest-2 /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/build/generated/res/resValues/androidTest/debug
-com.innosage.androidagentictemplate.test.app-mergeDebugAndroidTestResources-3 /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.innosage.androidagentictemplate.test.app-mergeDebugAndroidTestResources-4 /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.innosage.androidagentictemplate.test.app-merged_res-5 /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/build/intermediates/merged_res/debugAndroidTest

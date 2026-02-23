@@ -1,52 +1,94 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:2:1-30:12
-INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:2:1-30:12
-MERGED from [com.google.android.material:material:1.11.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/882b959ce314571651a931a5a83ad97e/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/0a4a54bb4db7e99b91739f976679361f/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/28ea5def6d0f35ca2945f727aac6752e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/85171c3f2980f786cf56769ee39a1d79/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4a1d4bf30518e28b601c629c39081855/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8de8329c47c9ad27214b91dcde6e53b4/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/993c62d1b6987f1580edd784b4f524f3/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.8.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/7e07c3aba7dba8e6643617875344ef64/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ab6e502a7868520487c66355bc831d62/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/031840089ad7ddf5e3da23f9726c230a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b71551154756c7d11797f071dda7cd50/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/155f9acb2cec688b019321f482d8abea/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4f464b1402649d4ac01e123b660b29e1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/361c9b8f671ee2acca1c07ba46d6f9ee/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/52cbc3138199b126ed4070b498d22ae5/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ec7da084e321d0fe0c3d1b109e5e85fb/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9fbeac81ecc5c37ebce857fcab7cae8b/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/38ad2d6da0d37cf075e9f390c957bb3a/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/27026b65441ab9bdee7ac444d7ccbaa6/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/878b140a2a140771dd8b8985bec04bab/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/da5e4e3361658642656fec6f659d9bdf/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f13739bedf82dd53ac20483d0daf5c80/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6b5276b0c115de1abd55bd3300472944/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2ea9f37b97cb030183ce665a33cb2fd0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f58bd096199b2b905989ee3ca8eaf1f9/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b3bd42447808fc35b096f6021ead02c5/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/5f8c61d26aeeb21d524a64fdcb576e91/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/aaef80bf8f4a1b4e77bd2c84781e3c4a/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ee4eacee2730a6d397a59d82a9e83049/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/adcca9e46e887c7094e6e4b970f3c10b/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6689cb24f2628e55161168cf34b417f9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2c47de233fc4296f31f9af1791d0ef62/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/7742a5373ff015e115d6dc4f9e0ee427/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/60c34c5d9e51d14996e3d57f2e79c473/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/232fd21c64de62d098c37095b94c7149/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/604e51cb70eee615a8f2e0b82d0365e3/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e9d1cd140e599d86e026e3d25157c336/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9a1ea03a3a4fb95f0a34f368a597985c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6303f2332a43b712d4b895eda2d4c191/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f48c6cc0216710ae6e8210de2acfa7b3/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [com.google.android.material:material:1.11.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d24ba7248a0c9143b21761d470944960/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/fd7d8fa202bce880f893d34efa065d49/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/12638f186e653b294b4c69da05de3726/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/66aa7de26ff13fa1743c1b20afd5f35d/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3-android:1.4.0-alpha15] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2252efe81785090b700f5998637df825/transformed/jetified-material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/286ebb9c389e111c96180240b6828720/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ac976e96186029aaa0464be9c92a4a0c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/95e489baa469025aec0dcce6a32656be/transformed/jetified-navigation-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d5ff3853cdde8383fd40f3ae21a3120b/transformed/jetified-navigation-common-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-compose-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/575750bcc1c01046ae2bc13845353a1b/transformed/jetified-navigation-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/bce327f9291cf985aed94c13b5bfa93a/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/47daadfb6a7d45407917788c18572091/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b56f9227a8374e92b4b729ec28522841/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4a0c42b0edb55b92a93e62e17d9019c4/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/88317379bb6fae538a49ccb6a58e6ba0/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/93969e29a82059539440740ac1b17c1d/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6a614f059dedbbb7ec4ab8bee75f4599/transformed/jetified-ui-test-manifest-1.8.1/AndroidManifest.xml:17:1-29:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b106789f4cdfa911c6142696ce8f4f88/transformed/jetified-ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/04849833abaf5bfd1faf55a018819ce1/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/368e2d385cda5674ca14553ecc073293/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/774d55fc5f443a580afcc26eb222182c/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9c460202a62965893cd6e0c3b4345c43/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9b4a88692a59bde4d737df1db5a396be/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9c15275f141019c8448ccb0ea095e305/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2458342c224d400acb76cfff769f40db/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/88e7ba9e3fc2031609d3d23bd84b76c0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d5744c874ede56731f17f651f10c9054/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/bbae4e377be66b2f391601898155edcc/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e2067109ba7ba34bceec5acbfe3c6584/transformed/jetified-emoji2-views-helper-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/878db9bb20d0204fd7788656e8951798/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/323ae2f00575d2e69440d9ee4be19a5e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/077676635e0160b21d9810105ba6fc57/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/90422621e3994295de0632f1bb1cc191/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/bd9fb2818ca0279e7871591feb4dda54/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/7e309addb564ebf167d92dad79aac18b/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9294f18e9058c53c72c41a5804e95aa2/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/71810e0cba7638eb7b382694b7f45066/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/48c6547bccb9eb49838cc98854c01214/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/5d655d7017df3825ad99694c727a256c/transformed/jetified-graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3961f41e2b1d808637218bd952cb6763/transformed/jetified-lifecycle-runtime-ktx/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/314a6e92da84efa6a06da5b7abcfc6d8/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/0dd54b467dd6a88e4d0ff2176fef36fd/transformed/jetified-lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b77df76ab3fc9ef2a61553512628a623/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/1a32a72abef261a1114edb7e9c7835fd/transformed/jetified-lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8c4ce44de89f96d5b54a48c08c2a155d/transformed/jetified-lifecycle-service-2.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f06163899a23051d7f8820ec7ccbbf7d/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/14b00e69eb2100c824e057f429d87935/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/c849ef6bd62ae7db38ed679ef7071fef/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/17118a1ad436dfd4441718a9da19b186/transformed/jetified-lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3e51ae2bde17319924b2f0dff30297c6/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4b870db88e4613a575f11a33fac44404/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8cda17cb14fb4824577c79c1b21a7eb8/transformed/jetified-savedstate-ktx-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/074dd840b525955b9ea8813a51f536ce/transformed/jetified-savedstate-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9a1575b113c9bb33fb5e8437f7ba5308/transformed/jetified-savedstate-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/a7bed6a713abd81f0c7af188f207a681/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f63c552ae18a697e467b691fc980bc18/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/29480d0e7c6db574d7deef299f70f69f/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/da5884ea2a13305980fe55273555a1ea/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9f5f252a6e2734a86ee003cbf85e28d1/transformed/jetified-activity-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.10.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9baeba6dba301ca980064d45fcb80c9b/transformed/jetified-activity-1.10.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9ba73a5058ba3a7dc2ed7a2c4960a65e/transformed/jetified-activity-compose-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e574e6322d38075960328f04dd138ad6/transformed/jetified-graphics-shapes-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/94a495a3907d3997dedfcd010bc70425/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/96528f269f9ac570c69531024ce58723/transformed/jetified-core-ktx-1.16.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/248ab822ca9edcd2267d0dbafe2bb84b/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8dd97e8f5e3ea53f1a136b05fbfb3808/transformed/jetified-room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e5b40bc4ec8c547e584f713d68ddd5a4/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/db5b719f065a28c78b4cf0ca64a69b5b/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b0ff6d73a44e9279d47ddfa4923355d7/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/5cf898a615d40e7a1732bc1aca26203f/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/84c8d7573640ff8055d73d5e71b675c0/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/17d30e227c4a90323ead9c9a0a1eab3a/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/35b07347bb81f65a179f6de158fb8346/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f7bd6215da3311ad76da592c49d172ab/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/196fba0b7f6ffa08c2da0c853fa66436/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3c3fcc94b20dee72ce54de2aff21504e/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3d2f3967540c6654be6e11a64b4dce73/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4e0c9d90aae17d504fe01cfccd1e073e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9b7593482b30fc923e5ff4621eed5398/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e08c4c9912b7d623177fab22bf0a7157/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/75f7b29e0c6d64385e658a807a7cd113/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8cae9f1968090ec312cf8982d33731ff/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 	package
 		INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -55,272 +97,390 @@ MERGED from [androidx.print:print:1.0.0] /Users/innosage-bots/.gradle/caches/8.1
 		INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:3:22-64
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:3:5-71
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:4:5-71
 	android:name
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:3:22-68
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:4:22-68
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:4:5-81
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:4:22-78
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:5:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:5:5-80
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:5:22-77
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:6:22-77
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:6:5-77
-	android:name
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:6:22-74
-uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:7:5-77
 	android:name
 		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:7:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:8:5-77
+	android:name
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:8:22-74
 uses-permission#android.permission.FOREGROUND_SERVICE_MICROPHONE
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:8:5-88
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:9:5-88
 	android:name
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:8:22-85
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:9:22-85
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:9:5-68
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:10:5-68
 	android:name
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:9:22-65
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:10:22-65
 application
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:11:5-29:19
-INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:11:5-29:19
-MERGED from [com.google.android.material:material:1.11.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/882b959ce314571651a931a5a83ad97e/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.11.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/882b959ce314571651a931a5a83ad97e/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/28ea5def6d0f35ca2945f727aac6752e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/28ea5def6d0f35ca2945f727aac6752e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2ea9f37b97cb030183ce665a33cb2fd0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2ea9f37b97cb030183ce665a33cb2fd0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/60c34c5d9e51d14996e3d57f2e79c473/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/60c34c5d9e51d14996e3d57f2e79c473/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/232fd21c64de62d098c37095b94c7149/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/232fd21c64de62d098c37095b94c7149/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:12:5-30:19
+INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:12:5-30:19
+MERGED from [com.google.android.material:material:1.11.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d24ba7248a0c9143b21761d470944960/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d24ba7248a0c9143b21761d470944960/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/12638f186e653b294b4c69da05de3726/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/12638f186e653b294b4c69da05de3726/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.compose.ui:ui-test-manifest:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6a614f059dedbbb7ec4ab8bee75f4599/transformed/jetified-ui-test-manifest-1.8.1/AndroidManifest.xml:22:5-27:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6a614f059dedbbb7ec4ab8bee75f4599/transformed/jetified-ui-test-manifest-1.8.1/AndroidManifest.xml:22:5-27:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b106789f4cdfa911c6142696ce8f4f88/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b106789f4cdfa911c6142696ce8f4f88/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b77df76ab3fc9ef2a61553512628a623/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b77df76ab3fc9ef2a61553512628a623/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/248ab822ca9edcd2267d0dbafe2bb84b/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/248ab822ca9edcd2267d0dbafe2bb84b/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/35b07347bb81f65a179f6de158fb8346/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/35b07347bb81f65a179f6de158fb8346/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4e0c9d90aae17d504fe01cfccd1e073e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4e0c9d90aae17d504fe01cfccd1e073e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
 		INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:14:9-41
 	android:allowBackup
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:15:9-67
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:16:9-67
 service#com.innosage.androidagentictemplate.AudioRecordService
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:16:9-20:58
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:17:9-21:58
 	android:enabled
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:18:13-35
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:19:13-35
 	android:exported
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:19:13-37
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:20:13-37
 	android:foregroundServiceType
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:20:13-55
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:21:13-55
 	android:name
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:17:13-47
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:18:13-47
 activity#com.innosage.androidagentictemplate.MainActivity
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:21:9-28:20
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:22:9-29:20
 	android:exported
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:23:13-36
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:22:13-41
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:24:13-27:29
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:25:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml:27:27-74
 uses-sdk
 INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml
 INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.11.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/882b959ce314571651a931a5a83ad97e/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.11.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/882b959ce314571651a931a5a83ad97e/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/0a4a54bb4db7e99b91739f976679361f/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/0a4a54bb4db7e99b91739f976679361f/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/28ea5def6d0f35ca2945f727aac6752e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/28ea5def6d0f35ca2945f727aac6752e/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/85171c3f2980f786cf56769ee39a1d79/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/85171c3f2980f786cf56769ee39a1d79/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4a1d4bf30518e28b601c629c39081855/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4a1d4bf30518e28b601c629c39081855/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8de8329c47c9ad27214b91dcde6e53b4/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8de8329c47c9ad27214b91dcde6e53b4/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/993c62d1b6987f1580edd784b4f524f3/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/993c62d1b6987f1580edd784b4f524f3/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.8.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/7e07c3aba7dba8e6643617875344ef64/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/7e07c3aba7dba8e6643617875344ef64/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ab6e502a7868520487c66355bc831d62/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ab6e502a7868520487c66355bc831d62/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/031840089ad7ddf5e3da23f9726c230a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/031840089ad7ddf5e3da23f9726c230a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b71551154756c7d11797f071dda7cd50/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b71551154756c7d11797f071dda7cd50/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/155f9acb2cec688b019321f482d8abea/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/155f9acb2cec688b019321f482d8abea/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4f464b1402649d4ac01e123b660b29e1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4f464b1402649d4ac01e123b660b29e1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/361c9b8f671ee2acca1c07ba46d6f9ee/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/361c9b8f671ee2acca1c07ba46d6f9ee/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/52cbc3138199b126ed4070b498d22ae5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/52cbc3138199b126ed4070b498d22ae5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ec7da084e321d0fe0c3d1b109e5e85fb/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ec7da084e321d0fe0c3d1b109e5e85fb/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9fbeac81ecc5c37ebce857fcab7cae8b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9fbeac81ecc5c37ebce857fcab7cae8b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/38ad2d6da0d37cf075e9f390c957bb3a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/38ad2d6da0d37cf075e9f390c957bb3a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/27026b65441ab9bdee7ac444d7ccbaa6/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/27026b65441ab9bdee7ac444d7ccbaa6/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/878b140a2a140771dd8b8985bec04bab/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/878b140a2a140771dd8b8985bec04bab/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/da5e4e3361658642656fec6f659d9bdf/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/da5e4e3361658642656fec6f659d9bdf/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f13739bedf82dd53ac20483d0daf5c80/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f13739bedf82dd53ac20483d0daf5c80/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6b5276b0c115de1abd55bd3300472944/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6b5276b0c115de1abd55bd3300472944/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2ea9f37b97cb030183ce665a33cb2fd0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2ea9f37b97cb030183ce665a33cb2fd0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f58bd096199b2b905989ee3ca8eaf1f9/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f58bd096199b2b905989ee3ca8eaf1f9/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b3bd42447808fc35b096f6021ead02c5/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b3bd42447808fc35b096f6021ead02c5/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/5f8c61d26aeeb21d524a64fdcb576e91/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/5f8c61d26aeeb21d524a64fdcb576e91/transformed/jetified-lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/aaef80bf8f4a1b4e77bd2c84781e3c4a/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/aaef80bf8f4a1b4e77bd2c84781e3c4a/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ee4eacee2730a6d397a59d82a9e83049/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ee4eacee2730a6d397a59d82a9e83049/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/adcca9e46e887c7094e6e4b970f3c10b/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/adcca9e46e887c7094e6e4b970f3c10b/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6689cb24f2628e55161168cf34b417f9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6689cb24f2628e55161168cf34b417f9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2c47de233fc4296f31f9af1791d0ef62/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2c47de233fc4296f31f9af1791d0ef62/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/7742a5373ff015e115d6dc4f9e0ee427/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/7742a5373ff015e115d6dc4f9e0ee427/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/60c34c5d9e51d14996e3d57f2e79c473/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/60c34c5d9e51d14996e3d57f2e79c473/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/232fd21c64de62d098c37095b94c7149/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/232fd21c64de62d098c37095b94c7149/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/604e51cb70eee615a8f2e0b82d0365e3/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/604e51cb70eee615a8f2e0b82d0365e3/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e9d1cd140e599d86e026e3d25157c336/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e9d1cd140e599d86e026e3d25157c336/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9a1ea03a3a4fb95f0a34f368a597985c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9a1ea03a3a4fb95f0a34f368a597985c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6303f2332a43b712d4b895eda2d4c191/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6303f2332a43b712d4b895eda2d4c191/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f48c6cc0216710ae6e8210de2acfa7b3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f48c6cc0216710ae6e8210de2acfa7b3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d24ba7248a0c9143b21761d470944960/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d24ba7248a0c9143b21761d470944960/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/fd7d8fa202bce880f893d34efa065d49/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/fd7d8fa202bce880f893d34efa065d49/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/12638f186e653b294b4c69da05de3726/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/12638f186e653b294b4c69da05de3726/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/66aa7de26ff13fa1743c1b20afd5f35d/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/66aa7de26ff13fa1743c1b20afd5f35d/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.4.0-alpha15] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2252efe81785090b700f5998637df825/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.4.0-alpha15] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2252efe81785090b700f5998637df825/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/286ebb9c389e111c96180240b6828720/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/286ebb9c389e111c96180240b6828720/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ac976e96186029aaa0464be9c92a4a0c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/ac976e96186029aaa0464be9c92a4a0c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/95e489baa469025aec0dcce6a32656be/transformed/jetified-navigation-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/95e489baa469025aec0dcce6a32656be/transformed/jetified-navigation-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d5ff3853cdde8383fd40f3ae21a3120b/transformed/jetified-navigation-common-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d5ff3853cdde8383fd40f3ae21a3120b/transformed/jetified-navigation-common-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-compose-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/575750bcc1c01046ae2bc13845353a1b/transformed/jetified-navigation-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/575750bcc1c01046ae2bc13845353a1b/transformed/jetified-navigation-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/bce327f9291cf985aed94c13b5bfa93a/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/bce327f9291cf985aed94c13b5bfa93a/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/47daadfb6a7d45407917788c18572091/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/47daadfb6a7d45407917788c18572091/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b56f9227a8374e92b4b729ec28522841/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b56f9227a8374e92b4b729ec28522841/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4a0c42b0edb55b92a93e62e17d9019c4/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4a0c42b0edb55b92a93e62e17d9019c4/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/88317379bb6fae538a49ccb6a58e6ba0/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/88317379bb6fae538a49ccb6a58e6ba0/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/93969e29a82059539440740ac1b17c1d/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/93969e29a82059539440740ac1b17c1d/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6a614f059dedbbb7ec4ab8bee75f4599/transformed/jetified-ui-test-manifest-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6a614f059dedbbb7ec4ab8bee75f4599/transformed/jetified-ui-test-manifest-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b106789f4cdfa911c6142696ce8f4f88/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b106789f4cdfa911c6142696ce8f4f88/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/04849833abaf5bfd1faf55a018819ce1/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/04849833abaf5bfd1faf55a018819ce1/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/368e2d385cda5674ca14553ecc073293/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/368e2d385cda5674ca14553ecc073293/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/774d55fc5f443a580afcc26eb222182c/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/774d55fc5f443a580afcc26eb222182c/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9c460202a62965893cd6e0c3b4345c43/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9c460202a62965893cd6e0c3b4345c43/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9b4a88692a59bde4d737df1db5a396be/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9b4a88692a59bde4d737df1db5a396be/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9c15275f141019c8448ccb0ea095e305/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9c15275f141019c8448ccb0ea095e305/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2458342c224d400acb76cfff769f40db/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2458342c224d400acb76cfff769f40db/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/88e7ba9e3fc2031609d3d23bd84b76c0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/88e7ba9e3fc2031609d3d23bd84b76c0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d5744c874ede56731f17f651f10c9054/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d5744c874ede56731f17f651f10c9054/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/bbae4e377be66b2f391601898155edcc/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/bbae4e377be66b2f391601898155edcc/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e2067109ba7ba34bceec5acbfe3c6584/transformed/jetified-emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e2067109ba7ba34bceec5acbfe3c6584/transformed/jetified-emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/878db9bb20d0204fd7788656e8951798/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/878db9bb20d0204fd7788656e8951798/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/323ae2f00575d2e69440d9ee4be19a5e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/323ae2f00575d2e69440d9ee4be19a5e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/077676635e0160b21d9810105ba6fc57/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/077676635e0160b21d9810105ba6fc57/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/90422621e3994295de0632f1bb1cc191/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/90422621e3994295de0632f1bb1cc191/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/bd9fb2818ca0279e7871591feb4dda54/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/bd9fb2818ca0279e7871591feb4dda54/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/7e309addb564ebf167d92dad79aac18b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/7e309addb564ebf167d92dad79aac18b/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9294f18e9058c53c72c41a5804e95aa2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9294f18e9058c53c72c41a5804e95aa2/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/71810e0cba7638eb7b382694b7f45066/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/71810e0cba7638eb7b382694b7f45066/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/48c6547bccb9eb49838cc98854c01214/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/48c6547bccb9eb49838cc98854c01214/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/5d655d7017df3825ad99694c727a256c/transformed/jetified-graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/5d655d7017df3825ad99694c727a256c/transformed/jetified-graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3961f41e2b1d808637218bd952cb6763/transformed/jetified-lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3961f41e2b1d808637218bd952cb6763/transformed/jetified-lifecycle-runtime-ktx/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/314a6e92da84efa6a06da5b7abcfc6d8/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/314a6e92da84efa6a06da5b7abcfc6d8/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/0dd54b467dd6a88e4d0ff2176fef36fd/transformed/jetified-lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/0dd54b467dd6a88e4d0ff2176fef36fd/transformed/jetified-lifecycle-livedata-core-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b77df76ab3fc9ef2a61553512628a623/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b77df76ab3fc9ef2a61553512628a623/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/1a32a72abef261a1114edb7e9c7835fd/transformed/jetified-lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/1a32a72abef261a1114edb7e9c7835fd/transformed/jetified-lifecycle-viewmodel-ktx-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8c4ce44de89f96d5b54a48c08c2a155d/transformed/jetified-lifecycle-service-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8c4ce44de89f96d5b54a48c08c2a155d/transformed/jetified-lifecycle-service-2.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f06163899a23051d7f8820ec7ccbbf7d/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f06163899a23051d7f8820ec7ccbbf7d/transformed/lifecycle-livedata-core-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/14b00e69eb2100c824e057f429d87935/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/14b00e69eb2100c824e057f429d87935/transformed/lifecycle-livedata-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/c849ef6bd62ae7db38ed679ef7071fef/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/c849ef6bd62ae7db38ed679ef7071fef/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/17118a1ad436dfd4441718a9da19b186/transformed/jetified-lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/17118a1ad436dfd4441718a9da19b186/transformed/jetified-lifecycle-viewmodel-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3e51ae2bde17319924b2f0dff30297c6/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3e51ae2bde17319924b2f0dff30297c6/transformed/lifecycle-viewmodel-2.9.0/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4b870db88e4613a575f11a33fac44404/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4b870db88e4613a575f11a33fac44404/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8cda17cb14fb4824577c79c1b21a7eb8/transformed/jetified-savedstate-ktx-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8cda17cb14fb4824577c79c1b21a7eb8/transformed/jetified-savedstate-ktx-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/074dd840b525955b9ea8813a51f536ce/transformed/jetified-savedstate-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-compose-android:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/074dd840b525955b9ea8813a51f536ce/transformed/jetified-savedstate-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9a1575b113c9bb33fb5e8437f7ba5308/transformed/jetified-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-android:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9a1575b113c9bb33fb5e8437f7ba5308/transformed/jetified-savedstate-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/a7bed6a713abd81f0c7af188f207a681/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/a7bed6a713abd81f0c7af188f207a681/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f63c552ae18a697e467b691fc980bc18/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f63c552ae18a697e467b691fc980bc18/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/29480d0e7c6db574d7deef299f70f69f/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/29480d0e7c6db574d7deef299f70f69f/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/da5884ea2a13305980fe55273555a1ea/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/da5884ea2a13305980fe55273555a1ea/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9f5f252a6e2734a86ee003cbf85e28d1/transformed/jetified-activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9f5f252a6e2734a86ee003cbf85e28d1/transformed/jetified-activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.10.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9baeba6dba301ca980064d45fcb80c9b/transformed/jetified-activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9baeba6dba301ca980064d45fcb80c9b/transformed/jetified-activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9ba73a5058ba3a7dc2ed7a2c4960a65e/transformed/jetified-activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9ba73a5058ba3a7dc2ed7a2c4960a65e/transformed/jetified-activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e574e6322d38075960328f04dd138ad6/transformed/jetified-graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e574e6322d38075960328f04dd138ad6/transformed/jetified-graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/94a495a3907d3997dedfcd010bc70425/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/94a495a3907d3997dedfcd010bc70425/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/96528f269f9ac570c69531024ce58723/transformed/jetified-core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/96528f269f9ac570c69531024ce58723/transformed/jetified-core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/248ab822ca9edcd2267d0dbafe2bb84b/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/248ab822ca9edcd2267d0dbafe2bb84b/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8dd97e8f5e3ea53f1a136b05fbfb3808/transformed/jetified-room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8dd97e8f5e3ea53f1a136b05fbfb3808/transformed/jetified-room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e5b40bc4ec8c547e584f713d68ddd5a4/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e5b40bc4ec8c547e584f713d68ddd5a4/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/db5b719f065a28c78b4cf0ca64a69b5b/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/db5b719f065a28c78b4cf0ca64a69b5b/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b0ff6d73a44e9279d47ddfa4923355d7/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b0ff6d73a44e9279d47ddfa4923355d7/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/5cf898a615d40e7a1732bc1aca26203f/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/5cf898a615d40e7a1732bc1aca26203f/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/84c8d7573640ff8055d73d5e71b675c0/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/84c8d7573640ff8055d73d5e71b675c0/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/17d30e227c4a90323ead9c9a0a1eab3a/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/17d30e227c4a90323ead9c9a0a1eab3a/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/35b07347bb81f65a179f6de158fb8346/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/35b07347bb81f65a179f6de158fb8346/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f7bd6215da3311ad76da592c49d172ab/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/f7bd6215da3311ad76da592c49d172ab/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/196fba0b7f6ffa08c2da0c853fa66436/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/196fba0b7f6ffa08c2da0c853fa66436/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3c3fcc94b20dee72ce54de2aff21504e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3c3fcc94b20dee72ce54de2aff21504e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3d2f3967540c6654be6e11a64b4dce73/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/3d2f3967540c6654be6e11a64b4dce73/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4e0c9d90aae17d504fe01cfccd1e073e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4e0c9d90aae17d504fe01cfccd1e073e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9b7593482b30fc923e5ff4621eed5398/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/9b7593482b30fc923e5ff4621eed5398/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e08c4c9912b7d623177fab22bf0a7157/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/e08c4c9912b7d623177fab22bf0a7157/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/75f7b29e0c6d64385e658a807a7cd113/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/75f7b29e0c6d64385e658a807a7cd113/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8cae9f1968090ec312cf8982d33731ff/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/8cae9f1968090ec312cf8982d33731ff/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/src/main/AndroidManifest.xml
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6a614f059dedbbb7ec4ab8bee75f4599/transformed/jetified-ui-test-manifest-1.8.1/AndroidManifest.xml:23:9-26:79
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6a614f059dedbbb7ec4ab8bee75f4599/transformed/jetified-ui-test-manifest-1.8.1/AndroidManifest.xml:25:13-36
+	android:theme
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6a614f059dedbbb7ec4ab8bee75f4599/transformed/jetified-ui-test-manifest-1.8.1/AndroidManifest.xml:26:13-76
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/6a614f059dedbbb7ec4ab8bee75f4599/transformed/jetified-ui-test-manifest-1.8.1/AndroidManifest.xml:24:13-63
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b106789f4cdfa911c6142696ce8f4f88/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b106789f4cdfa911c6142696ce8f4f88/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.8.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b106789f4cdfa911c6142696ce8f4f88/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2ea9f37b97cb030183ce665a33cb2fd0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2ea9f37b97cb030183ce665a33cb2fd0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/232fd21c64de62d098c37095b94c7149/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/232fd21c64de62d098c37095b94c7149/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b77df76ab3fc9ef2a61553512628a623/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b77df76ab3fc9ef2a61553512628a623/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4e0c9d90aae17d504fe01cfccd1e073e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/4e0c9d90aae17d504fe01cfccd1e073e/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/50e0ca40c124581cecfe5fdce857acfb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/526b7ad100467d5b49abe1f7aad93711/transformed/jetified-emoji2-1.4.0/AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
 permission#com.innosage.androidagentictemplate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
 uses-permission#com.innosage.androidagentictemplate.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.12.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/d58e9e195e13399dec7b3348c41c102c/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.16.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/027422611cb55aafeba6e5e55ac05180/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2ea9f37b97cb030183ce665a33cb2fd0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b77df76ab3fc9ef2a61553512628a623/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2ea9f37b97cb030183ce665a33cb2fd0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b77df76ab3fc9ef2a61553512628a623/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/2ea9f37b97cb030183ce665a33cb2fd0/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
-meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+		ADDED from [androidx.lifecycle:lifecycle-process:2.9.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/b77df76ab3fc9ef2a61553512628a623/transformed/jetified-lifecycle-process-2.9.0/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/248ab822ca9edcd2267d0dbafe2bb84b/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/248ab822ca9edcd2267d0dbafe2bb84b/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/248ab822ca9edcd2267d0dbafe2bb84b/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/248ab822ca9edcd2267d0dbafe2bb84b/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/248ab822ca9edcd2267d0dbafe2bb84b/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/82f9f9deaa3cbc6a375e2a862f35561d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/innosage-bots/.gradle/caches/8.11.1/transforms/68de4d89b8f63fac77a550e3f2abf641/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92

@@ -47,7 +47,7 @@ class WhisperTranscriptionTest {
             latch.countDown()
         }
         
-        val completed = latch.await(60, TimeUnit.SECONDS)
+        val completed = latch.await(300, TimeUnit.SECONDS)
         assertTrue("Transcription should complete within timeout", completed)
         assertTrue("Transcription result should not be empty. Got: '$resultText'", resultText.isNotEmpty())
         

@@ -15,7 +15,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.innosage.androidagentictemplate.data.UtteranceEntity
 import com.innosage.androidagentictemplate.ui.theme.ElectricGreen
-import com.innosage.androidagentictemplate.ui.theme.SoftPurple
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -26,7 +25,6 @@ fun UtteranceFeed(
 ) {
     val listState = rememberLazyListState()
 
-    // Auto-scroll to bottom
     LaunchedEffect(utterances.size) {
         if (utterances.isNotEmpty()) {
             listState.animateScrollToItem(utterances.size - 1)
@@ -47,13 +45,6 @@ fun UtteranceFeed(
 
 @Composable
 fun UtteranceBubble(utterance: UtteranceEntity) {
-    val intentColor = when (utterance.intentLabel?.lowercase()) {
-        "decision" -> SoftPurple
-        "blocker" -> Color(0xFFE57373) // Soft Red
-        "idea" -> ElectricGreen
-        else -> MaterialTheme.colorScheme.secondary
-    }
-
     Column(
         modifier = Modifier.fillMaxWidth(),
         horizontalAlignment = Alignment.Start
@@ -69,29 +60,11 @@ fun UtteranceBubble(utterance: UtteranceEntity) {
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
-                
-                if (!utterance.intentLabel.isNullOrBlank()) {
-                    Spacer(modifier = Modifier.height(8.dp))
-                    SuggestionChip(
-                        onClick = { },
-                        label = {
-                            Text(
-                                text = utterance.intentLabel.uppercase(),
-                                fontSize = 10.sp,
-                                color = Color.White
-                            )
-                        },
-                        colors = SuggestionChipDefaults.suggestionChipColors(
-                            containerColor = intentColor
-                        ),
-                        border = null
-                    )
-                }
             }
         }
         
         Text(
-            text = formatTime(utterance.timestamp),
+            text = formatTime(utterance.timestamp) + " • " + (utterance.duration / 1000.0) + "s",
             style = MaterialTheme.typography.labelSmall,
             color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f),
             modifier = Modifier.padding(start = 4.dp, top = 4.dp)

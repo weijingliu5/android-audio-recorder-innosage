@@ -1,3 +1,0 @@
-com.innosage.androidagentictemplate.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

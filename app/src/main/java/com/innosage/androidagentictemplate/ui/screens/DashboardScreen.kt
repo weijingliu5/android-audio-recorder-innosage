@@ -6,9 +6,9 @@ import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.LocalOffer
-import androidx.compose.material.icons.filled.Pause
-import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.FileUpload
+import androidx.compose.material.icons.filled.Stop
+import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -19,7 +19,6 @@ import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.innosage.androidagentictemplate.data.UtteranceEntity
 import com.innosage.androidagentictemplate.ui.UtteranceFeed
 import com.innosage.androidagentictemplate.ui.theme.ElectricGreen
@@ -30,7 +29,7 @@ fun DashboardScreen(
     isVoiced: Boolean,
     utterances: List<UtteranceEntity>,
     onToggleRecording: () -> Unit,
-    onManualTag: () -> Unit
+    onFileTranscribe: () -> Unit
 ) {
     val haptic = LocalHapticFeedback.current
 
@@ -42,10 +41,15 @@ fun DashboardScreen(
     ) {
         // Top Section: Title
         Text(
-            text = "Context Sensor Active",
+            text = "Whisper.cpp Validation",
             style = MaterialTheme.typography.headlineMedium,
             color = ElectricGreen,
             fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = "Live Transcription",
+            style = MaterialTheme.typography.labelMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
         )
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -62,7 +66,7 @@ fun DashboardScreen(
                 if (utterances.isEmpty()) {
                     EnergyRing(isVoiced = isVoiced && isRecording)
                     Text(
-                        text = if (isRecording) "SENSING..." else "IDLE",
+                        text = if (isRecording) "LISTENING..." else "STANDBY",
                         style = MaterialTheme.typography.labelLarge,
                         color = Color.White.copy(alpha = 0.5f)
                     )
@@ -93,21 +97,23 @@ fun DashboardScreen(
                 horizontalArrangement = Arrangement.SpaceEvenly,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                // Manual Tag Button
-                IconButton(
+                // File Transcribe Button
+                OutlinedButton(
                     onClick = {
                         haptic.performHapticFeedback(HapticFeedbackType.LongPress)
-                        onManualTag()
-                    }
+                        onFileTranscribe()
+                    },
+                    modifier = Modifier.height(56.dp)
                 ) {
                     Icon(
-                        imageVector = Icons.Default.LocalOffer,
-                        contentDescription = "Manual Tag",
-                        tint = MaterialTheme.colorScheme.secondary
+                        imageVector = Icons.Default.FileUpload,
+                        contentDescription = "Transcribe File"
                     )
+                    Spacer(Modifier.width(8.dp))
+                    Text("FILE")
                 }
 
-                // Pause/Resume Button
+                // Live Transcribe Toggle Button
                 Button(
                     onClick = {
                         haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
@@ -121,11 +127,11 @@ fun DashboardScreen(
                     modifier = Modifier.height(56.dp)
                 ) {
                     Icon(
-                        imageVector = if (isRecording) Icons.Default.Pause else Icons.Default.PlayArrow,
-                        contentDescription = if (isRecording) "Pause" else "Resume"
+                        imageVector = if (isRecording) Icons.Default.Stop else Icons.Default.Mic,
+                        contentDescription = if (isRecording) "Stop" else "Start Live"
                     )
                     Spacer(Modifier.width(8.dp))
-                    Text(text = if (isRecording) "PAUSE" else "RESUME")
+                    Text(text = if (isRecording) "STOP" else "LIVE")
                 }
             }
         }
@@ -172,4 +178,3 @@ fun EnergyRing(isVoiced: Boolean) {
         }
     }
 }
-

@@ -1,10 +1,9 @@
 package com.innosage.androidagentictemplate.ui
 
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Dashboard
-import androidx.compose.material.icons.filled.History
-import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.Description
+import androidx.compose.material.icons.filled.Mic
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
@@ -26,7 +25,7 @@ fun MainScaffold(
     viewModel: MainViewModel = viewModel()
 ) {
     val navController = rememberNavController()
-    val screens = listOf(Screen.History, Screen.Dashboard, Screen.Settings)
+    val screens = listOf(Screen.Dashboard, Screen.History)
     val utterances by viewModel.utterances.collectAsState()
     val isVoiced by viewModel.isVoiced.collectAsState()
 
@@ -40,9 +39,9 @@ fun MainScaffold(
                         icon = {
                             Icon(
                                 imageVector = when (screen) {
-                                    Screen.History -> Icons.Default.History
-                                    Screen.Dashboard -> Icons.Default.Dashboard
-                                    Screen.Settings -> Icons.Default.Settings
+                                    Screen.History -> Icons.Default.Description
+                                    Screen.Dashboard -> Icons.Default.Mic
+                                    else -> Icons.Default.Mic
                                 },
                                 contentDescription = screen.label
                             )
@@ -68,20 +67,17 @@ fun MainScaffold(
             startDestination = Screen.Dashboard.route,
             modifier = Modifier.padding(innerPadding)
         ) {
-            composable(Screen.History.route) {
-                PlaceholderScreen(Screen.History.label)
-            }
             composable(Screen.Dashboard.route) {
                 DashboardScreen(
                     isRecording = isRecording,
                     isVoiced = isVoiced,
                     utterances = utterances,
                     onToggleRecording = onToggleRecording,
-                    onManualTag = { /* Handle manual tag */ }
+                    onFileTranscribe = { /* Implement file picker and transcription */ }
                 )
             }
-            composable(Screen.Settings.route) {
-                PlaceholderScreen(Screen.Settings.label)
+            composable(Screen.History.route) {
+                PlaceholderScreen("Transcription History")
             }
         }
     }
@@ -89,7 +85,11 @@ fun MainScaffold(
 
 @Composable
 fun PlaceholderScreen(name: String) {
-    Surface(modifier = Modifier.padding(16.dp)) {
-        Text(text = "$name Screen Placeholder", style = MaterialTheme.typography.headlineSmall)
+    Surface(modifier = Modifier.padding(16.dp).fillMaxSize()) {
+        Column(verticalArrangement = Arrangement.Center, horizontalAlignment = androidx.compose.ui.Alignment.CenterHorizontally) {
+            Text(text = name, style = MaterialTheme.typography.headlineSmall)
+            Spacer(modifier = Modifier.height(8.dp))
+            Text(text = "Previous transcriptions will appear here.", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
     }
 }

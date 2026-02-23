@@ -1,83 +1,50 @@
 package com.innosage.androidagentictemplate
 
-import kotlin.math.sqrt
-
 /**
- * Voice Activity Detection Processor.
- * Handles RMS-based speech detection and hangover logic.
+ * Super simple Voice Activity Detector using RMS threshold.
+ * Used for Whisper.cpp validation focus.
  */
 class VADProcessor(
-    private val threshold: Double = 800.0,
-    private val hangoverMs: Long = 1000L,
-    private val silenceThresholdMs: Long = 1500L
+    private val threshold: Double,
+    private val hangoverMs: Long,
+    private val silenceThresholdMs: Long
 ) {
     private var lastVoiceTime = 0L
-    private var utteranceStarted = false
+    private var utteranceStartTime = 0L
+    private var isCurrentlyVoiced = false
 
-    /**
-     * Determines if the given PCM 16-bit buffer contains speech based on RMS threshold.
-     * Returns Pair(voiced, rms)
-     */
-    fun isVoiced(buffer: ShortArray, size: Int): Pair<Boolean, Double> {
-        if (size <= 0) return Pair(false, 0.0)
+    fun isVoiced(audioData: ShortArray, size: Int): Pair<Boolean, Double> {
         var sum = 0.0
         for (i in 0 until size) {
-            sum += buffer[i].toDouble() * buffer[i]
+            sum += audioData[i] * audioData[i]
         }
-        val rms = sqrt(sum / size)
+        val rms = Math.sqrt(sum / size)
         val voiced = rms > threshold
+        
         if (voiced) {
-            utteranceStarted = true
+            lastVoiceTime = System.currentTimeMillis()
+            if (utteranceStartTime == 0L) utteranceStartTime = lastVoiceTime
         }
-        return Pair(voiced, rms)
+        
+        isCurrentlyVoiced = voiced
+        return voiced to rms
     }
 
-    /**
-     * Determines if the given ByteArray (PCM 16-bit Little Endian) contains speech.
-     * Returns Pair(voiced, rms)
-     */
-    fun isVoiced(byteBuffer: ByteArray): Pair<Boolean, Double> {
-        val shortBuffer = ShortArray(byteBuffer.size / 2)
-        for (i in shortBuffer.indices) {
-            val low = byteBuffer[i * 2].toInt() and 0xFF
-            val high = byteBuffer[i * 2 + 1].toInt()
-            shortBuffer[i] = ((high shl 8) or low).toShort()
-        }
-        return isVoiced(shortBuffer, shortBuffer.size)
+    fun shouldRecord(isVoiced: Boolean, now: Long): Boolean {
+        return isVoiced || (now - lastVoiceTime < hangoverMs)
     }
 
-    /**
-     * Determines if the current frame should be recorded based on current voice status
-     * and the hangover period.
-     */
-    fun shouldRecord(voiced: Boolean, nowMs: Long): Boolean {
-        if (voiced) {
-            lastVoiceTime = nowMs
-            return true
-        }
-        return (nowMs - lastVoiceTime) < hangoverMs
+    fun isUtteranceComplete(now: Long): Boolean {
+        return utteranceStartTime != 0L && !isCurrentlyVoiced && (now - lastVoiceTime > silenceThresholdMs)
     }
 
-    /**
-     * Checks if a discrete utterance has likely ended (silence > threshold).
-     */
-    fun isUtteranceComplete(nowMs: Long): Boolean {
-        if (!utteranceStarted) return false
-        return (nowMs - lastVoiceTime) >= silenceThresholdMs
-    }
-
-    /**
-     * Resets the internal state (e.g. last voice time).
-     */
     fun reset() {
         lastVoiceTime = 0L
-        utteranceStarted = false
+        utteranceStartTime = 0L
+        isCurrentlyVoiced = false
     }
 
-    /**
-     * Resets the utterance tracking after one is processed.
-     */
     fun resetUtterance() {
-        utteranceStarted = false
+        utteranceStartTime = 0L
     }
 }

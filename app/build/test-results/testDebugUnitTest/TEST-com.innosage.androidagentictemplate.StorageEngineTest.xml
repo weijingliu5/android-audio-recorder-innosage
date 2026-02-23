@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.innosage.androidagentictemplate.StorageEngineTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-23T01:37:12" hostname="MacBook-Pro-2.local" time="0.017">
-  <properties/>
-  <testcase name="testCleanupDeletesOldFiles" classname="com.innosage.androidagentictemplate.StorageEngineTest" time="0.008"/>
-  <testcase name="testGetRecordingFilesReturnsSortedFiles" classname="com.innosage.androidagentictemplate.StorageEngineTest" time="0.008"/>
-  <testcase name="testGetNextChunkFileGeneratesCorrectPattern" classname="com.innosage.androidagentictemplate.StorageEngineTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

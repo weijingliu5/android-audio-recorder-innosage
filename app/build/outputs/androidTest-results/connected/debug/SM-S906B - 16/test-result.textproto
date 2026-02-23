@@ -1,30 +1,44 @@
-# 2026-02-23T01:39:29.838Z:
+# proto-message: google.testing.platform.proto.api.core.TestSuiteResult
+# 2026-02-23T16:17:32.265368Z:
 test_suite_meta_data {
   scheduled_test_case_count: 1
+  device {
+    id: "R3CT313AE6R"
+    friendly_name: "primary"
+  }
 }
-test_status: PASSED
+test_status: FAILED
 test_result {
   test_case {
-    test_class: "AppLaunchTest"
+    test_class: "WhisperTranscriptionTest"
     test_package: "com.innosage.androidagentictemplate"
-    test_method: "testAppLaunchAndStartRecording"
+    test_method: "testTranscriptionWorks"
     start_time {
-      seconds: 1771810766
-      nanos: 987000000
+      seconds: 1771863451
+      nanos: 218000000
     }
     end_time {
-      seconds: 1771810768
-      nanos: 959000000
+      seconds: 1771863451
+      nanos: 259000000
+    }
+    device {
+      id: "R3CT313AE6R"
+      friendly_name: "primary"
     }
   }
-  test_status: PASSED
+  test_status: FAILED
+  error {
+    error_message: "java.lang.AssertionError: Model file should exist at /storage/emulated/0/Android/data/com.innosage.androidagentictemplate/files/ggml-small.bin\nat org.junit.Assert.fail(Assert.java:89)\nat org.junit.Assert.assertTrue(Assert.java:42)\nat com.innosage.androidagentictemplate.WhisperTranscriptionTest.testTranscriptionWorks(WhisperTranscriptionTest.kt:32)\n"
+    error_type: "java.lang.AssertionError"
+    stack_trace: "java.lang.AssertionError: Model file should exist at /storage/emulated/0/Android/data/com.innosage.androidagentictemplate/files/ggml-small.bin\nat org.junit.Assert.fail(Assert.java:89)\nat org.junit.Assert.assertTrue(Assert.java:42)\nat com.innosage.androidagentictemplate.WhisperTranscriptionTest.testTranscriptionWorks(WhisperTranscriptionTest.kt:32)\n"
+  }
   output_artifact {
     label {
       label: "logcat"
       namespace: "android"
     }
     source_path {
-      path: "/Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/build/outputs/androidTest-results/connected/debug/SM-S906B - 16/logcat-com.innosage.androidagentictemplate.AppLaunchTest-testAppLaunchAndStartRecording.txt"
+      path: "/Users/innosage-bots/.openclaw/workspace/android-audio-recorder/app/build/outputs/androidTest-results/connected/debug/SM-S906B - 16/logcat-com.innosage.androidagentictemplate.WhisperTranscriptionTest-testTranscriptionWorks.txt"
     }
   }
   output_artifact {

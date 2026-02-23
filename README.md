@@ -1,31 +1,34 @@
-# Android Agentic Template
+# Whisper.cpp Android Validation App
 
-This is a GitHub repository template for Android projects, designed following the **Agentic Engineering** methodology for autonomous AI agent development.
+A focused, high-quality sample app for validating **Whisper.cpp** (OpenAI's Whisper model in C++) on Android. This app demonstrates high-performance, on-device speech-to-text with both real-time (live) and file-based transcription capabilities.
+
+## Key Features
+
+- **Live Transcribe**: Real-time microphone capture with lightweight VAD (Voice Activity Detection) and instant transcription via Whisper.cpp.
+- **File Transcribe**: High-speed offline transcription of existing audio/media files.
+- **JNI Integration**: Clean, documented bridge between Kotlin and the native C++ Whisper engine.
+- **Model Management**: Automated downloader for Whisper models (`base`, `tiny`, `small`) optimized for Android storage.
+- **Simple & Fast**: Removed legacy recorder overhead to provide a clear, developer-friendly validation target.
 
 ## Project Structure
 
-- `AGENTS.md`: Instruction layer for the AI agent developer.
-- `SOUL.md`: Persona and core truths for the agent.
-- `IDENTITY.md`: Agent's name and vibe.
-- `MEMORY.md`: Long-term project memory.
-- `GATE.md`: The Project Gate documentation.
-- `gate.sh`: Script for verifying changes before commit.
-- `app/`: Minimal Android application structure.
+- `app/src/main/cpp/`: The native Whisper.cpp engine and JNI bridge.
+- `app/src/main/java/com/innosage/androidagentictemplate/whisper/`: Kotlin wrappers for the native Whisper context.
+- `app/src/main/java/com/innosage/androidagentictemplate/TranscriptionEngine.kt`: Unified engine for handling transcription tasks.
+- `app/src/main/java/com/innosage/androidagentictemplate/AudioRecordService.kt`: Lightweight foreground service for live capture.
 
-## Agentic Engineering Methodology
+## Getting Started
 
-1. **Instruction Layer**: Guides the agent's behavior and ensures alignment.
-2. **Atomic Commits**: Encourages small, logical steps.
-3. **The Gate**: Automates verification for code quality and correctness.
-4. **Closing the Loop**: Agents are empowered to fix issues found by the Gate.
-5. **No Plan Mode**: Agile development focused on immediate next steps.
+1. Clone the repository.
+2. Open in Android Studio (Giraffe or newer recommended).
+3. Connect an ARM64-v8a device (physical device required for best performance).
+4. Build and Run.
+5. The app will automatically prompt to download the Whisper `base` model on first launch.
 
-## Quick Start
+## Agentic Engineering
 
-1. Create a new repository using this template.
-2. Give your AI agent access to the repo.
-3. The agent will read `AGENTS.md` and start driving the project!
+This project is maintained using the **Agentic Engineering** methodology, ensuring high-quality, autonomous development and surgical focus on the Whisper.cpp implementation.
 
 ---
-Based on the Agentic Engineering Audit of Peter Steinberger.
 InnoSage ⚡️
+Whisper.cpp by Georgi Gerganov.

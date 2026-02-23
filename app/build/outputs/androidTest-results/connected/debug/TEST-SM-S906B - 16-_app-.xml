@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="com.innosage.androidagentictemplate.AppLaunchTest" tests="1" failures="0" errors="0" skipped="0" time="2.829" timestamp="2026-02-23T01:39:29" hostname="localhost">
+<testsuite name="com.innosage.androidagentictemplate.WhisperTranscriptionTest" tests="1" failures="1" errors="0" skipped="0" time="0.956" timestamp="2026-02-23T16:17:32" hostname="localhost">
   <properties>
     <property name="device" value="SM-S906B - 16" />
     <property name="flavor" value="" />
     <property name="project" value=":app" />
   </properties>
-  <testcase name="testAppLaunchAndStartRecording" classname="com.innosage.androidagentictemplate.AppLaunchTest" time="1.986" />
+  <testcase name="testTranscriptionWorks" classname="com.innosage.androidagentictemplate.WhisperTranscriptionTest" time="0.008">
+    <failure>java.lang.AssertionError: Model file should exist at /storage/emulated/0/Android/data/com.innosage.androidagentictemplate/files/ggml-small.bin
+at org.junit.Assert.fail(Assert.java:89)
+at org.junit.Assert.assertTrue(Assert.java:42)
+at com.innosage.androidagentictemplate.WhisperTranscriptionTest.testTranscriptionWorks(WhisperTranscriptionTest.kt:32)
+</failure>
+  </testcase>
 </testsuite>
