@@ -2,43 +2,87 @@ package com.innosage.androidagentictemplate
 
 import android.content.Context
 import android.util.Log
-import com.innosage.androidagentictemplate.whisper.WhisperLib
+import com.innosage.androidagentictemplate.whisper.WhisperContext
+import com.innosage.androidagentictemplate.whisper.ModelDownloader
+import kotlinx.coroutines.*
 import java.io.File
-import java.util.concurrent.Executors
 
 /**
  * Handles background transcription of PCM chunks using Whisper.cpp.
+ * Integrated with ModelDownloader and AudioConverter.
  */
 class TranscriptionEngine(private val context: Context) {
-    private val whisper = WhisperLib()
-    private var contextPtr: Long = 0
-    private val executor = Executors.newSingleThreadExecutor()
+    private var whisperContext: WhisperContext? = null
+    private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val converter = AudioConverter()
     private val TAG = "TranscriptionEngine"
 
-    fun initialize(modelPath: String) {
-        executor.execute {
-            if (!File(modelPath).exists()) {
-                Log.e(TAG, "Model file not found: $modelPath")
-                return@execute
-            }
-            contextPtr = whisper.initContext(modelPath)
-            if (contextPtr != 0L) {
-                Log.i(TAG, "Whisper initialized with model: $modelPath")
-            } else {
-                Log.e(TAG, "Failed to initialize Whisper context")
+    fun initialize(modelName: String, onStatus: (String) -> Unit = {}) {
+        scope.launch {
+            try {
+                val modelFile = File(context.getExternalFilesDir(null), "ggml-$modelName.bin")
+                if (!modelFile.exists()) {
+                    // Try fallback location first to avoid download
+                    val fallback = File("/sdcard/Download/ggml-$modelName.bin")
+                    if (fallback.exists()) {
+                        Log.i(TAG, "Found model at fallback: ${fallback.absolutePath}")
+                        fallback.copyTo(modelFile)
+                    }
+                }
+
+                if (!modelFile.exists()) {
+                    onStatus("Downloading $modelName model...")
+                    val downloader = ModelDownloader()
+                    val success = downloader.downloadModel(modelName, modelFile) { progress ->
+                        onStatus("Downloading $modelName: $progress%")
+                    }
+                    if (!success) {
+                        onStatus("Failed to download model")
+                        return@launch
+                    }
+                }
+
+                onStatus("Loading model...")
+                whisperContext = WhisperContext.createContextFromFile(modelFile.absolutePath)
+                onStatus("Ready")
+                Log.i(TAG, "Whisper initialized with model: ${modelFile.name}")
+            } catch (e: Exception) {
+                Log.e(TAG, "Error in TranscriptionEngine initialization", e)
+                onStatus("Error: ${e.message}")
             }
         }
     }
 
-    fun transcribeChunk(pcmFile: File, onResult: (String) -> Unit) {
-        if (contextPtr == 0L) {
-            Log.w(TAG, "Engine not initialized. Skipping transcription for ${pcmFile.name}")
-            return
-        }
+    fun transcribeMediaFile(mediaFile: File, onResult: (String) -> Unit) {
+        scope.launch {
+            val currentContext = whisperContext
+            if (currentContext == null) {
+                Log.w(TAG, "Engine not initialized. Skipping transcription.")
+                return@launch
+            }
 
-        executor.execute {
             try {
-                val pcmData = pcmFile.readBytes()
+                Log.i(TAG, "Converting ${mediaFile.name}...")
+                val floatData = converter.convertTo16kHzMono(mediaFile)
+                if (floatData != null) {
+                    Log.i(TAG, "Transcribing ${mediaFile.name}...")
+                    val transcript = currentContext.transcribeData(floatData)
+                    onResult(transcript)
+                } else {
+                    Log.e(TAG, "Failed to convert media file")
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "Error transcribing media file: ${e.message}")
+            }
+        }
+    }
+
+    fun transcribeUtterance(pcmData: ByteArray, onResult: (String) -> Unit) {
+        scope.launch {
+            val currentContext = whisperContext
+            if (currentContext == null) return@launch
+
+            try {
                 // Convert 16-bit PCM (Little Endian) to FloatArray (-1.0 to 1.0)
                 val floatData = FloatArray(pcmData.size / 2)
                 for (i in floatData.indices) {
@@ -48,33 +92,21 @@ class TranscriptionEngine(private val context: Context) {
                     floatData[i] = sample.toFloat() / 32768.0f
                 }
 
-                val status = whisper.fullTranscribe(contextPtr, floatData)
-                if (status == 0) {
-                    val segmentCount = whisper.getTextSegmentCount(contextPtr)
-                    val sb = StringBuilder()
-                    for (i in 0 until segmentCount) {
-                        sb.append(whisper.getTextSegment(contextPtr, i))
-                    }
-                    val result = sb.toString().trim()
-                    Log.d(TAG, "Transcription result: $result")
-                    onResult(result)
-                } else {
-                    Log.e(TAG, "Transcription failed with status: $status")
+                val transcript = currentContext.transcribeData(floatData, printTimestamp = false)
+                if (transcript.isNotEmpty()) {
+                    onResult(transcript)
                 }
             } catch (e: Exception) {
-                Log.e(TAG, "Error transcribing chunk: ${e.message}")
+                Log.e(TAG, "Error transcribing utterance: ${e.message}")
             }
         }
     }
 
     fun release() {
-        executor.execute {
-            if (contextPtr != 0L) {
-                whisper.freeContext(contextPtr)
-                contextPtr = 0
-                Log.i(TAG, "Whisper context released")
-            }
+        scope.launch {
+            whisperContext?.release()
+            whisperContext = null
+            scope.cancel()
         }
-        executor.shutdown()
     }
 }

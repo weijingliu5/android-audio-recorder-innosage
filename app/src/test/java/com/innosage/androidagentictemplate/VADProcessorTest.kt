@@ -65,12 +65,35 @@ class VADProcessorTest {
     }
 
     @Test
-    fun `reset clears hangover state`() {
-        val now = 1000L
-        vadProcessor.shouldRecord(true, now)
-        assertTrue("Should record during hangover", vadProcessor.shouldRecord(false, now + 500))
+    fun `isUtteranceComplete identifies end of discrete utterance`() {
+        val startTime = 1000L
+        val silenceThreshold = 1500L
         
-        vadProcessor.reset()
-        assertFalse("Should not record after reset even if within old hangover period", vadProcessor.shouldRecord(false, now + 500))
+        // Use a 3-argument constructor for explicit testing
+        val testVad = VADProcessor(threshold, hangoverMs, silenceThreshold)
+        
+        // 1. Initial silence
+        assertFalse("Utterance should not be complete initially", testVad.isUtteranceComplete(startTime))
+        
+        // 2. Speech detected
+        val speech = ShortArray(1024) { 1500 }
+        assertTrue("Speech detected", testVad.isVoiced(speech, speech.size))
+        testVad.shouldRecord(true, startTime) // Updates lastVoiceTime
+        
+        // 3. Just after speech stops
+        assertFalse("Utterance should not be complete right after speech", testVad.isUtteranceComplete(startTime + 100))
+        
+        // 4. Within silence threshold (e.g. 1s later)
+        assertFalse("Utterance should not be complete within silence threshold", testVad.isUtteranceComplete(startTime + 1000))
+        
+        // 5. At silence threshold (e.g. 1.5s later)
+        assertTrue("Utterance should be complete at silence threshold", testVad.isUtteranceComplete(startTime + 1500))
+        
+        // 6. Beyond silence threshold (e.g. 2s later)
+        assertTrue("Utterance should be complete beyond silence threshold", testVad.isUtteranceComplete(startTime + 2000))
+        
+        // 7. Reset utterance state
+        testVad.resetUtterance()
+        assertFalse("Utterance should not be complete after resetUtterance", testVad.isUtteranceComplete(startTime + 2500))
     }
 }
